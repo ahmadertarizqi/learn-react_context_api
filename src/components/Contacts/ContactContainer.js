@@ -5,19 +5,7 @@ import Contact from './Contact';
 import { Consumer } from '../../Context';
 
 class allContacts extends React.Component {
-
-  // deleteContact = (id) => {
-  //   // console.log(id);
-  //   // console.log(this.state)
-  //   const { allContacts } = this.state;
-  //   const contactBaru = allContacts.filter(contact => contact.id !== id )
-  //   this.setState({
-  //     allContacts: contactBaru
-  //   })
-  // }
-
-  // state pertama kali di inisialisasikan
-
+  
   render() {
     return (  
       <Consumer>
@@ -26,7 +14,8 @@ class allContacts extends React.Component {
           const { allContacts } = value
           return (
             <React.Fragment>
-              <div className="d-flex justify-content-end">
+              <div className="d-flex justify-content-between">
+                <h4>Data List</h4>
                 <Link to="/contact/add" className="btn btn-primary">
                   <i className="icon ion-md-add"></i> Add Data
                 </Link>
