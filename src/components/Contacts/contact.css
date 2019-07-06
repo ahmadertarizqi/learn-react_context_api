@@ -1,0 +1,19 @@
+.c-name {
+  position: relative;
+}
+.a_csr-pointer {
+  padding-left: 15px;
+  border-left: 1px solid #b9b8b8;
+  margin-left: 15px;
+}
+.csr-pointer {
+  cursor: pointer;
+  padding-left: 15px;
+  border-left: 1px solid #b9b8b8;
+  margin-left: 15px;
+}
+.csr-pointer:first-child {
+  padding-left: 0;
+  border-left: 0;
+  margin-left: 0;
+}
