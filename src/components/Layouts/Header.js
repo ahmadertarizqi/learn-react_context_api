@@ -31,11 +31,5 @@ Header.defaultProps = {
 Header.propTypes = {
   headtitle: PT.string.isRequired
 }
-
-// inline css
-// const headstyle = {
-//   color: 'blue',
-//   marginBottom: 0
-// }
  
 export default Header;
