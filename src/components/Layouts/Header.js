@@ -24,12 +24,5 @@ const Header = (props) => {
     </nav>
   );
 }
-
-Header.defaultProps = {
-  headtitle: 'Learn React'
-}
-Header.propTypes = {
-  headtitle: PT.string.isRequired
-}
  
 export default Header;
